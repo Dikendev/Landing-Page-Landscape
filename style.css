@@ -52,6 +52,7 @@
     filter: invert(1);
     width: 60px;
     height: 60px;
+    margin-right: -80px;
     background: url(icons/icons8-cardápio.png);
     background-repeat: no-repeat;
     background-size: 30px;
