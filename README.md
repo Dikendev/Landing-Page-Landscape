@@ -1,10 +1,12 @@
 # Landing-Page-Landscape
 
+https://dikendev.github.io/Landing-Page-Landscape/
+
 ### Tecnologias utilizadas
 
-*Only HTML e CSS*
+*HTML CSS JavaScript*
 
-### objetivo
+### Objetivo
   Praticar reponsividade em vários dispositivos, focando no Mobile First.
 </br>
 </br> 
