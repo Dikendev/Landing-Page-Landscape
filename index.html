@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LandScape Landing page</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Travel</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="video/mainvideo.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+              
+        <div class="text">
+            <h2>Descubra</h2>
+            <h3>Novos horizontes</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, corporis earum officia quidem soluta eaque quia ullam ducimus ipsa fugit similique necessitatibus tenetur excepturi non veritatis veniam. Blanditiis, recusandae possimus!</p>
+            <a href="#">Explore</a>  
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="icons/icons8-github.png" alt=""></a></li>
+            <li><a href="#"><img src="icons/icons8-instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="icons/icons8-linkedin.png" alt=""></a></li>
+            <li><a href="#"><img src="icons/icons8-whatsapp.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Ideas</a></li>
+            <li><a href="#">Contact me</a></li>
+        </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector('.toggle')
+      const showcase = document.querySelector('.showcase')
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+      })
+    </script>
+</body>
+</html>
